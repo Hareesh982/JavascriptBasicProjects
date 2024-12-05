@@ -1,0 +1,22 @@
+body{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 200px;
+}
+div{
+    width: 200px;
+    margin: 0px auto;
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(90, 81, 97);
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
