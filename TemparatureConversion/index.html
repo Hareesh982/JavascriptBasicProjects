@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temparature conversion</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="box">
+        <h1>Temparature <br> conversion</h1>
+        <input type="number" id="TemperatureInput" required placeholder="Enter the Teparature"><br>
+        <input type="radio" id="CelToFar" name="card">
+        <label for="CelToFar">Celsius -> Fahrenheit</label><br>
+        <input type="radio" id="FarToCel" name="card">
+        <label for="FarToCel">Fahrenheit -> Celsius</label><br>
+        <button onclick="TemperatureFunction()">Submit</button>
+        <button onclick="Reset()">Reset</button>
+        <p id="Result"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
